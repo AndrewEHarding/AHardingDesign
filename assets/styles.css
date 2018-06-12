@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    width: 960px;
+    margin: auto;
+    background-image: url(./frontpagebackground.jpg)
+    
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 10px 10px 10px;
+
+}
+
+h1 {
+    background-color: dimgray;
+    color: white;
+    float: left;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+
+}
+
+section {
+    margin-top: 100px;
+    /* float: left; */
+    background-color: white;
+    padding: 15px;
+    /* margin: auto; */
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 10pt;
+    background-color: dimgray;
+    color: white;
+
+}
