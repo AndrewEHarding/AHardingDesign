@@ -5,3 +5,15 @@ body {
     margin: auto;
     
 }
+
+footer {
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: beige;
+    font-size: 10pt;
+
+}
