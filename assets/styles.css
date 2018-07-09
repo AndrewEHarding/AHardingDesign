@@ -1,48 +1,23 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18pt;
-    width: 960px;
-    margin: auto;
-    background-image: url(./frontpagebackground.jpg)
-    
+    background-image: url(./images/frontpagebackground.jpg);
+    background-repeat: repeat;
 }
 
-header {
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0px 10px 10px 10px;
+a {
+    color: grey;
+}
 
+a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 h1 {
-    background-color: dimgray;
-    color: white;
-    float: left;
-    border-radius: 0px 0px 10px 10px;
-    padding: 10px;
-
+    color: blue;
+    box-shadow: 3px 3px 10px black;
+    border-radius: 0%;
 }
 
-section {
-    margin-top: 100px;
-    /* float: left; */
-    background-color: white;
-    padding: 15px;
-    /* margin: auto; */
-}
-
-footer {
-    text-align: center;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    font-size: 10pt;
-    background-color: dimgray;
-    color: white;
-
+h1:hover {
+    text-shadow: 3px 3px 3px black;
 }
