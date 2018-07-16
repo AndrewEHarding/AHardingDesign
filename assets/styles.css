@@ -21,3 +21,7 @@ h1 {
 h1:hover {
     text-shadow: 3px 3px 3px black;
 }
+
+.card {
+    margin-top: 10px;
+}
