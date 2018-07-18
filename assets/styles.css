@@ -1,6 +1,24 @@
 body {
     background-image: url(./images/frontpagebackground.jpg);
     background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    border-style: solid;
+    border-width: 0px 0px 5px 0px;
+    border-color: gray;
+}
+
+#main-container {
+    margin: 10px auto 60px auto;
+    padding: 10px;
+}
+
+footer {
+    border-style: solid;
+    border-width: 5px 0px 0px 0px;
+    border-color: gray;
 }
 
 a {
@@ -13,7 +31,6 @@ a:hover {
 }
 
 h1 {
-    color: blue;
     box-shadow: 3px 3px 10px black;
     border-radius: 0%;
 }
