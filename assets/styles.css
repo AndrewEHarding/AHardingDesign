@@ -18,7 +18,7 @@
 }
 
 .parallax:nth-child(2) {
-    background-color: slategray;
+    background-image: url(./images/qbkls.png);
 }
 
 .parallax:nth-child(3) {
@@ -27,7 +27,7 @@
 }
 
 .parallax:nth-child(4) {
-    background-color: slategray;
+    background-image: url(./images/qbkls.png);
 }
 
 .parallax:nth-child(5) {
@@ -35,7 +35,7 @@
 }
 
 .parallax:nth-child(6) {
-    background-color: slategray;
+    background-image: url(./images/qbkls.png);
 }
 
 #profile-pic {
@@ -46,6 +46,4 @@
     background-color: rgb(82, 93, 104);
 }
 
-@media screen and (max-width:640px) {
-
-}
+@media screen and (max-width:640px) {}
