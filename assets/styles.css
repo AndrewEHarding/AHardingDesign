@@ -37,3 +37,15 @@
 .parallax:nth-child(6) {
     background-color: slategray;
 }
+
+#profile-pic {
+    max-height: 300px;
+}
+
+.page-footer, nav {
+    background-color: rgb(82, 93, 104);
+}
+
+@media screen and (max-width:640px) {
+
+}

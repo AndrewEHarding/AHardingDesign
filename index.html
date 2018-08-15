@@ -4,35 +4,87 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>AndrewHarding.io</title>
+    <title>AndrewEHarding.io</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- MATERIALIZE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- STYLESHEET -->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/styles.css" />
 </head>
 
 <body>
 
-    <!-- PICTURE/TITLE -->
-    <div class="parallax scroll1"></div>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper container">
+                <a href="#top" class="brand-logo">AndrewEHarding.io</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="waves-effect"><a href="#about-me">About Me</a></li>
+                    <li class="waves-effect"><a href="#portfolio">Portfolio</a></li>
+                    <li class="waves-effect"><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-    <!-- ABOUT ME -->
-    <div class="parallax"></div>
+    <main>
 
-    <!-- SCROLL IMAGE -->
-    <div class="parallax scroll2"></div>
+        <!-- PICTURE/TITLE -->
+        <div class="parallax scroll1" id="top">
+            <div class="container">
+                <img id="profile-pic" src="./assets/images/profile_pic.jpg" />
+                <h2>Welcome to<br>AndrewEHarding.io</h2>
+                <h4>The portfolio site of Andrew E. Harding. From here you can read about me, view my portfolio or contact
+                    me.
+                </h4>
+            </div>
+        </div>
 
-    <!-- PORTFOLIO -->
-    <div class="parallax"></div>
+        <!-- ABOUT ME -->
+        <div class="parallax" id="about-me">
+            <div class="container">
+                <p>Greetings! I'm Andrew, an aspiring web/full-stack developer. After gaining an appreciation for coding
+                    in high school, I went on to get my Bachelors Degree in Digital Media from Lyndon State College (NKA
+                    Northern Vermont University). I'm currently earning my Full-Stack developer certification from UNH Coding
+                    Bootcamp. On this site, you can view my work of get in touch with me.
+                    <br> Praise the Sun!
+                    <br>
+                    <strong>
+                        -Andrew E. Harding-
+                    </strong></p>
+            </div>
+        </div>
 
-    <!-- SCROLL IMAGE -->
-    <div class="parallax scroll3"></div>
+        <!-- SCROLL IMAGE -->
+        <div class="parallax scroll2"></div>
 
-    <!-- CONTACT -->
-    <div class="parallax"></div>
+        <!-- PORTFOLIO -->
+        <div class="parallax" id="portfolio"></div>
+
+        <!-- SCROLL IMAGE -->
+        <div class="parallax scroll3"></div>
+
+        <!-- CONTACT -->
+        <div class="parallax" id="contact"></div>
+
+    </main>
+
+    <footer class="page-footer">
+        <div class="footer-copyright">
+            <div class="container  grey-text text-lighten-5 center">
+                Copyright ©
+                <script type="text/javascript">
+                    document.write(new Date().getFullYear());
+                </script>, Andrew E. Harding
+            </div>
+        </div>
+    </footer>
 
     <!-- ==========SCRIPTS========== -->
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- MATERIALIZE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <!-- JAVASCRIPT -->
     <script src="./assets/scripts.js"></script>
 </body>
