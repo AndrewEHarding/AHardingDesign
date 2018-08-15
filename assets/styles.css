@@ -1,4 +1,4 @@
-*{
+* {
     border: 0;
     padding: 0;
     margin: 0;
@@ -12,28 +12,28 @@
     height: 100vh;
 }
 
-.parallax:nth-child(1){
+.parallax:nth-child(1) {
     background-image: url(./images/background0.jpg);
     background-size: cover;
 }
 
-.parallax:nth-child(2){
+.parallax:nth-child(2) {
     background-color: slategray;
 }
 
-.parallax:nth-child(3){
+.parallax:nth-child(3) {
     background-image: url(./images/background1.jpg);
     background-size: cover;
 }
 
-.parallax:nth-child(4){
+.parallax:nth-child(4) {
     background-color: slategray;
 }
 
-.parallax:nth-child(5){
+.parallax:nth-child(5) {
     background-image: url(./images/background2.jpg);
 }
 
-.parallax:nth-child(6){
+.parallax:nth-child(6) {
     background-color: slategray;
 }
