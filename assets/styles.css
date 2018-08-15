@@ -4,6 +4,44 @@
     margin: 0;
 }
 
+/* label color */
+.input-field label {
+    color: #000;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label {
+    color: rgb(0, 0, 0);
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000;
+}
+
+.progress-container {
+    height: 8px;
+    background-color: rgb(64, 74, 83);
+}
+
 .parallax {
     display: flex;
     align-items: center;
@@ -38,12 +76,8 @@
     background-image: url(./images/qbkls.png);
 }
 
-#profile-pic {
-    max-height: 300px;
-}
-
 .page-footer, nav {
-    background-color: rgb(82, 93, 104);
+    background-color: slategray;
 }
 
 @media screen and (max-width:640px) {}
