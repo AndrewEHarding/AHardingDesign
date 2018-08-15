@@ -16,6 +16,11 @@ $(document).ready(function () {
         $(".scroll1").css("backgroundPositionY", paraOffset + "px");
         $(".scroll2").css("backgroundPositionY", (paraOffset + 600) + "px");
         $(".scroll3").css("backgroundPositionY", paraOffset + "px");
+
+        var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
     });
 
 
