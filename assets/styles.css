@@ -78,6 +78,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-position: center; */
     width: 100%;
     min-height: 100vh;
 }
@@ -102,6 +103,7 @@
 
 .parallax:nth-child(5) {
     background-image: url(./images/background2.jpg);
+    background-size: cover;
 }
 
 .parallax:nth-child(6) {
@@ -112,4 +114,34 @@
     background-color: slategray;
 }
 
-@media screen and (max-width:640px) {}
+.page-footer {
+    align-items: center;
+}
+
+.contact-icon {
+    max-width: 100px;
+}
+
+.brand-logo, .navtext, h2 {
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Cuprum', sans-serif;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width:600px) {
+    .parallax:nth-child(1), .parallax:nth-child(3), .parallax:nth-child(5) {
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .contact-icon {
+        max-width: 75px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
