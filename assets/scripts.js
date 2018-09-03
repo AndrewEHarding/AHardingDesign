@@ -14,7 +14,7 @@ $(document).ready(function () {
             let paraOffset = offset * 0.7;
             $(".scroll1").css("backgroundPositionY", paraOffset + "px");
             $(".scroll2").css("backgroundPositionY", paraOffset + 600 + "px");
-            $(".scroll3").css("backgroundPositionY", paraOffset + 400 + "px");
+            $(".scroll3").css("backgroundPositionY", paraOffset + 300 + "px");
         }
         var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
         var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
