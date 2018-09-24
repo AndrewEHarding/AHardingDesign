@@ -110,6 +110,11 @@
     /* background-image: url(./images/spiration\ dark.png); */
 }
 
+#title{
+    font-family: 'Cuprum', sans-serif;
+    color: aliceblue;
+}
+
 .page-footer, nav {
     background-color: slategray;
 }
