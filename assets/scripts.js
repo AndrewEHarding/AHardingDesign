@@ -23,14 +23,6 @@ $(document).ready(function () {
     });
 
     // Initialize Firebase
-    // var config = {
-    //     apiKey: "AIzaSyAoK72xtO4_SagoQBxquiiU06K3RWvctnQ",
-    //     authDomain: "portfolio-comments-40035.firebaseapp.com",
-    //     databaseURL: "https://portfolio-comments-40035.firebaseio.com",
-    //     projectId: "portfolio-comments-40035",
-    //     storageBucket: "portfolio-comments-40035.appspot.com",
-    //     messagingSenderId: "60548605488"
-    // };
     // firebase.initializeApp(config);
     // var database = firebase.database();
     // var name = "";
