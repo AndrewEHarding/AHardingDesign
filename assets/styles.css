@@ -133,19 +133,39 @@
     font-family: 'Cuprum', sans-serif;
 }
 
+.navtext{
+    font-size: 30pt;
+}
+
 h2 {
     margin-bottom: 30px;
 }
 
+strong{
+    font-size: 24pt;
+}
+
 @media screen and (max-width:600px) {
+    .brand-logo{
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        font-size: 34pt;
+    }
     .parallax:nth-child(1), .parallax:nth-child(3), .parallax:nth-child(5) {
         background-attachment: fixed;
         background-position: center;
     }
     .contact-icon {
         max-width: 75px;
+        padding-top: 15px;
     }
     h2 {
         text-align: center;
+        font-size: 34pt;
+    }
+    p, .flow-text, strong{
+        font-size: 18pt;
     }
 }

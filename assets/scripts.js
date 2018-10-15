@@ -1,5 +1,5 @@
 $(document).ready(function () {
-
+    // LINK TRANSITION FUNCTIONS
     $(document).on('click', 'a[href^="#"]', function (event) {
         event.preventDefault();
         $('html, body').animate({
@@ -23,43 +23,39 @@ $(document).ready(function () {
     });
 
     // Initialize Firebase
-    var config = {
-        apiKey: "AIzaSyAoK72xtO4_SagoQBxquiiU06K3RWvctnQ",
-        authDomain: "portfolio-comments-40035.firebaseapp.com",
-        databaseURL: "https://portfolio-comments-40035.firebaseio.com",
-        projectId: "portfolio-comments-40035",
-        storageBucket: "portfolio-comments-40035.appspot.com",
-        messagingSenderId: "60548605488"
-    };
-    firebase.initializeApp(config);
-    var database = firebase.database();
-    var name = "";
-    var email = "";
-    var comment = "";
-
+    // var config = {
+    //     apiKey: "AIzaSyAoK72xtO4_SagoQBxquiiU06K3RWvctnQ",
+    //     authDomain: "portfolio-comments-40035.firebaseapp.com",
+    //     databaseURL: "https://portfolio-comments-40035.firebaseio.com",
+    //     projectId: "portfolio-comments-40035",
+    //     storageBucket: "portfolio-comments-40035.appspot.com",
+    //     messagingSenderId: "60548605488"
+    // };
+    // firebase.initializeApp(config);
+    // var database = firebase.database();
+    // var name = "";
+    // var email = "";
+    // var comment = "";
     // SUBMIT FUNCTIONS
-    $("#submit").on("click", function (event) {
-        event.preventDefault();
-        name = $("#name-input").val().trim();
-        email = $("#email-input").val().trim();
-        comment = $("#comment-input").val().trim();
-        if (name == "" || email == "" || comment == "") {
-            M.toast({ html: 'Empty Fields' });
-        }
-        else {
-            database.ref().push({
-                name: name,
-                email: email,
-                comment: comment
-            });
-            $("#name-input").val("");
-            $("#email-input").val("");
-            $("#comment-input").val("");
-
-            M.toast({ html: 'Comment Submitted!' });
-        }
-
-
-    });
+    // $("#submit").on("click", function (event) {
+    //     event.preventDefault();
+    //     name = $("#name-input").val().trim();
+    //     email = $("#email-input").val().trim();
+    //     comment = $("#comment-input").val().trim();
+    //     if (name == "" || email == "" || comment == "") {
+    //         M.toast({ html: 'Empty Fields' });
+    //     }
+    //     else {
+    //         database.ref().push({
+    //             name: name,
+    //             email: email,
+    //             comment: comment
+    //         });
+    //         $("#name-input").val("");
+    //         $("#email-input").val("");
+    //         $("#comment-input").val("");
+    //         M.toast({ html: 'Comment Submitted!' });
+    //     }
+    // });//End of submit functions
 
 });//End of document.ready
