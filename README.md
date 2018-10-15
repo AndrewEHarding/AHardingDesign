@@ -1,4 +1,4 @@
-# AndrewEHarding.github.io
+# AndrewHardingPortfolio
 
 [Live Link](https://andreweharding.github.io/)
 
